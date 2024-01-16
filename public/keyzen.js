@@ -1,5 +1,5 @@
 var data = {};
-data.chars = " ntesiroahdjglpufywqbkvmcxz1234567890'\",.!?:;/@$%&#*()_ABCDEFGHIJKLMNOPQRSTUVWXYZ~+-={}|^<>`[]\\";
+data.chars = " rnteisual,jwmpdocfq.bhvg-yxkz;?:";
 data.consecutive = 10;
 data.word_length = 7;
 
@@ -207,44 +207,3 @@ function get_training_chars() {
 function choose(a) {
     return a[Math.floor(Math.random() * a.length)];
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
