@@ -1,11 +1,28 @@
+var version=2;
 var data = {};
-data.chars = " rnteisual,jwmpdocfq.bhvg-yxkz;?:";
+data.chars = " " +            // space
+             "rnteisual," +   // home row
+             "mpdocfqjw" +    // top row
+             "hvg-yxkz.b" +   // bottom row
+             ";?:" +          // shifted punctuation
+             "’" +            // 1dk space
+             "êîèûéùà·" +     // 1dk home row
+             "µô_œ¨çŭâ" +     // 1dk top row
+             "ñ—ßæ…" +        // 1dk bottom row
+             "•¿" +           // 1dk shifted
+             "{()}=\\+-/\"" + // altgr home row
+             "@<>$%^&*'`" +   // altgr top row
+             "~[]_#|!;:?" +   // altgr bottom row
+             "⁽⁾≠±—÷" +       // shifted altgr home row
+             "≤≥‰×" +         // shifted altgr top row
+             "–¦¬";           // shifted altgr bottom row
+
 data.consecutive = 10;
 data.word_length = 7;
 
 
 $(document).ready(function() {
-    if (localStorage.data != undefined) {
+    if (localStorage[`data-${version}`] != undefined) {
         load();
         render();
     }
@@ -73,12 +90,12 @@ function level_up() {
 
 
 function save() {
-    localStorage.data = JSON.stringify(data);
+    localStorage[`data-${version}`] = JSON.stringify(data);
 }
 
 
 function load() {
-    data = JSON.parse(localStorage.data);
+    data = JSON.parse(localStorage[`data-${version}`]);
 }
 
 
