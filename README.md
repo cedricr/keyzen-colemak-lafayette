@@ -1,4 +1,4 @@
-Keyzen - Ergo-L Edition
+Keyzen - Colemak-Lafayette Edition
 ========================
 
 This is a fork of [Keyzen by wwwtyro](https://github.com/wwwtyro/keyzen), modified for learning the Colemak-Lafayette keyboard layout, inspired by [QWERTY-Lafayette](https://qwerty-lafayette.org/) and the [Ergo‑L](https://ergol.org) layouts.
