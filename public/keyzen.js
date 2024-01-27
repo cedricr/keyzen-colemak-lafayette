@@ -1,4 +1,4 @@
-var version=3;
+var version=4;
 var data = {};
 data.chars = " " +            // space
              "ntesiruahd" +   // home row
