@@ -1,9 +1,9 @@
 var version=3;
 var data = {};
 data.chars = " " +            // space
-             "ntesiruamg" +   // home row
-             "lpofwyqjb" +    // top row
-             "hd-c,x.zkv" +   // bottom row
+             "ntesiruahd" +   // home row
+             "lpofwyqjg" +    // top row
+             "mv-c,x.zkb" +   // bottom row
              "!?;:"          // shifted punctuation
 
 data.consecutive = 10;
